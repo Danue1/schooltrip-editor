@@ -1,0 +1,1 @@
+schooltrip-editor
