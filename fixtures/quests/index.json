@@ -1,0 +1,45 @@
+{
+  "quest": {
+    "type": "Main",
+    "id": 1,
+    "npc_id": 1,
+    "auto_success": true,
+    "reward": {
+      "experience": 100
+    },
+    "scripts": {
+      "_start": {
+        "type": "Branch",
+        "character_id": 1,
+        "branches": [
+          {
+            "text": "start_yes",
+            "next_script": "start_yes_answer"
+          },
+          {
+            "text": "start_no",
+            "next_script": "start_no_answer"
+          }
+        ]
+      },
+      "_success": {
+        "type": "Talk",
+        "character_id": 1
+      },
+      "_unsuccess": {
+        "type": "Talk",
+        "character_id": 1
+      },
+      "start_yes_answer": {
+        "type": "Talk",
+        "id": 0,
+        "character_id": 1
+      },
+      "start_no_answer": {
+        "type": "Talk",
+        "id": 1,
+        "character_id": 1
+      }
+    }
+  }
+}
