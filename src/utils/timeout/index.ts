@@ -1,1 +1,1 @@
-export const timeout = (timeout: number) => new Promise(resolve => window.setTimeout(resolve, timeout));
+export const timeout = (timeout: number): Promise<void> => new Promise(resolve => window.setTimeout(resolve, timeout));

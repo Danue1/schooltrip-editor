@@ -7,7 +7,7 @@ import { PATH_CHARACTER, PATH_HOME, PATH_ITEM, PATH_NOT_FOUND, PATH_QUEST } from
 import React, { Suspense } from "react";
 import { Redirect, Route, Switch } from "react-router";
 
-export const Routes = () => (
+export const Routes = (): JSX.Element => (
   <Suspense fallback={null}>
     <Switch>
       <Route path={PATH_HOME} component={HomePage} exact />

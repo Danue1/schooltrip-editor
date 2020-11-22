@@ -2,7 +2,7 @@ import { InternalLink } from "App/Atomics/InternalLink";
 import { PATH_CHARACTER, PATH_ITEM, PATH_QUEST } from "constants/Routes";
 import React from "react";
 
-export const HomePage = () => (
+export const HomePage = (): JSX.Element => (
   <div>
     <h1>School Trip! 에디터</h1>
     <h2>
