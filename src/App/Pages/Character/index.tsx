@@ -1,3 +1,7 @@
 import React from "react";
 
-export const CharacterPage = () => <div>캐릭터 편집</div>;
+export const CharacterPage = () => (
+  <div>
+    <h1>캐릭터 편집</h1>
+  </div>
+);

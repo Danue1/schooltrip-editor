@@ -4,6 +4,7 @@ import React from "react";
 
 export const HomePage = () => (
   <div>
+    <h1>School Trip! 에디터</h1>
     <h2>
       <InternalLink to={PATH_CHARACTER}>캐릭터 편집</InternalLink>
     </h2>
