@@ -1,1 +1,1 @@
-schooltrip-editor
+# School Trip! Editor

@@ -1,0 +1,19 @@
+:root {
+  font-family: "Apple SD Gothic Neo", NanumBarunGothic, "나눔바른고딕", Noto Sans KR, sans-serif;
+  color: var(--font-basic);
+  word-break: keep-all;
+  background-color: var(--gray-1);
+}
+
+:root:lang(ja),
+:root:lang(zh),
+:root:lang(zh-CN) {
+  word-break: break-all;
+}
+
+:root::before,
+:root:lang(ja)::before,
+:root:lang(zh)::before,
+:root:lang(zh-CN)::before {
+  word-break: keep-all;
+}
